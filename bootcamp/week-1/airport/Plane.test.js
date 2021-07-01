@@ -11,10 +11,7 @@ describe('Plane', () => {
 	const crystal = new Person('Crystal')
 	const judith = new Person('Judith')
 
-	test('has a serial number', () => {
-		expect(testPlane.flightNumber).toBe('B500')
-	})
-
+	
 	test('has an origin', () => {
 		testPlane.setOrigin(lax)
 		expect(testPlane.origin.name).toBe('LAX')

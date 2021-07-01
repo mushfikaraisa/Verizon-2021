@@ -3,6 +3,7 @@ const Person = require('./Person')
 class Passenger extends Person {
 	constructor(ticketNum, name) {
 		super(name)
+		 
 		this.ticketNum = ticketNum
 	}
 
